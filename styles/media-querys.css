@@ -6,16 +6,26 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* TABLET */
-   
+    body{ 
+        background-position: bottom 11rem right 32rem,bottom -42rem right -12rem;
+        background-size: 50rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /* DESKTOP */
-   
+    body{ 
+        background-position: bottom 12rem right 37rem,bottom -40rem right -12rem;
+        background-size: 50rem;
+    }
+       
 
 }
 
 @media screen and (min-width: 1200px) {
-
+body{ 
+    background-position: bottom 15rem right 45rem,bottom -29rem right -12rem;
+    background-size: 50rem;
+}
    
 }
