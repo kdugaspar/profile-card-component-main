@@ -5,6 +5,13 @@
 }
 
 body{
+    background-color: #19a1ad;
+    background-image: url(../images/bg-pattern-top.svg);
+    background-position: bottom 39rem right 11rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+   
     font-size: 62.5%;
     display: flex;
     flex-direction: column;
@@ -15,7 +22,9 @@ body{
 }
 main{
     width: 21.7rem;
-    background-color: rgb(0, 183, 255);
+    height: 22rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 article{
     display: flex;
@@ -25,6 +34,7 @@ article{
 }
 .bloco1{
     width: 21.7rem;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 .foto{
     width: 6.5rem;
@@ -41,12 +51,14 @@ align-items: center;
 }
 .sesao-1{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     position: relative;
     top: -2rem;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0);
     width: 21.7rem;
-    height: 6rem;
+    height: 11.7rem;
+    gap: 2em;
     
 }
 address{
@@ -70,4 +82,26 @@ h1{
 span{
     font-size: 1.1rem;
     font-style: normal;
+}
+.sesao-2{
+    border-top: 0.1rem solid rgba(59, 59, 59, 0.397);
+    background-color: #ffffff;
+    height:6rem;
+    width: 21.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.bloco-num{
+display: flex;
+flex-direction: column;
+}
+.s-num{
+    font-weight: 700;
+}
+.s-nome{
+    font-size: 0.8rem;
+    color: #5e5e5e;
 }
